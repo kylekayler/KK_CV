@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 28" fill="currentColor" aria-label="Motorola">
+  <g transform="translate(8,6)">
+    <circle cx="10" cy="10" r="10" fill="currentColor" opacity="0.14"/>
+    <path d="M26 16V0h4l3 7 3-7h4v16h-4V6l-3 7-3-7v10h-4zM46 8c0-5 4-8 9-8s9 3 9 8-4 8-9 8-9-3-9-8zm14 0c0-3-2-4-5-4s-5 1-5 4 2 4 5 4 5-1 5-4zM68 16V0h4v16h-4zM76 16V0h4v6h6V0h4v16h-4V10h-6v6h-4zM96 16V0h4v16h-4z"/>
+  </g>
+</svg>
