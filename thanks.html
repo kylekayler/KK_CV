@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thanks — Kyle Kayler</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="alternate icon" type="image/png" href="/favicon-32.png">
+  <style>
+    :root{
+      --bg:#ffffff; --fg:#0b0f14; --muted:#5f6b7a; --accent:#0a66c2; --line:#e9eef3;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root{ --bg:#0b0f14; --fg:#f4f7fa; --muted:#b2bdca; --accent:#66aaff; --line:#22303e; }
+    }
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+    .wrap{display:grid;place-items:center;height:100%}
+    .card{padding:24px 28px;border:1px solid var(--line);border-radius:12px;background:#fff;max-width:640px}
+    @media (prefers-color-scheme: dark){ .card{ background:#0b0f14 } }
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    h1{margin:0 0 8px 0}
+    p{margin:6px 0}
+    .cta{margin-top:12px;display:flex;flex-wrap:wrap;gap:10px}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);font-weight:600;background:var(--bg);color:var(--fg)}
+    .btn.primary{background:var(--fg);color:#fff;border-color:var(--fg)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Thanks for reaching out!</h1>
+      <p>I’ll get back to you shortly. In the meantime:</p>
+      <div class="cta">
+        <a class="btn" href="index.html">Return to homepage</a>
+        <a class="btn" href="kyle_kayler_one_pager.pdf" download>Download one‑pager</a>
+        <a class="btn" href="kyle_kayler_resume.pdf" download>View resume (PDF)</a>
+        <a class="btn" href="https://www.linkedin.com/in/kylekayler" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        <a class="btn" href="https://calendar.app.google/BCgvrJm2SoYtFbBS9" target="_blank" rel="noopener">Book a meeting</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
