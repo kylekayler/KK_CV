@@ -231,21 +231,30 @@
   <section id="contact">
     <h3>Contact</h3>
     <p class="muted">Primary: <a href="https://www.linkedin.com/in/kylekayler" target="_blank" rel="noopener">LinkedIn</a></p>
-    <form name="contact" method="post" data-netlify="true">
-      <input type="hidden" name="form-name" value="contact" />
-      <div class="grid cols-2">
-        <input name="name" type="text" placeholder="Your name" required />
-        <input name="email" type="email" placeholder="Your email" required />
-      </div>
-      <input name="company" type="text" placeholder="Company (optional)" />
-      <textarea name="message" placeholder="How can I help?" required></textarea>
-      <div class="cta-row">
-        <button class="btn primary" type="submit">Send</button>
-        <a class="btn" href="mailto:kylekayler@gmail.com">Email</a>
-        <a class="btn" href="tel:+15094756617">Call</a>
-        <a class="btn" href="https://calendar.app.google/BCgvrJm2SoYtFbBS9" target="_blank" rel="noopener">Book a meeting</a>
-      </div>
-    </form>
+   <form action="https://formspree.io/f/xovkokqz" method="POST">
+  <!-- Spam honeypot -->
+  <input type="text" name="_honey" style="display:none">
+
+  <!-- Subject (optional, helpful for email filtering) -->
+  <input type="hidden" name="_subject" value="New message from KyleKayler.com">
+
+  <!-- Redirect to a thank-you page after submission -->
+  <input type="hidden" name="_next" value="https://YOUR_USERNAME.github.io/thanks.html">
+
+  <div class="grid cols-2">
+    <input name="name" type="text" placeholder="Your name" required />
+    <input name="email" type="email" placeholder="Your email" required />
+  </div>
+  <input name="company" type="text" placeholder="Company (optional)" />
+  <textarea name="message" placeholder="How can I help?" required></textarea>
+
+  <div class="cta-row">
+    <button class="btn primary" type="submit">Send</button>
+    <a class="btn" href="mailto:kylekayler@gmail.com">Email</a>
+    <a class="btn" href="tel:+15094756617">Call</a>
+    <a class="btn" href="https://calendar.app.google/BCgvrJm2SoYtFbBS9" target="_blank" rel="noopener">Book a meeting</a>
+  </div>
+</form>
   </section>
 </main>
 
@@ -277,3 +286,4 @@
 
 </body>
 </html>
+
